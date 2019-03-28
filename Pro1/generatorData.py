@@ -55,7 +55,7 @@ def load_data():
     # some error occurs when one column is full with zeros
 
     scatter_matrix(OS_slct, alpha=0.5, figsize=(16, 16*0.618))
-    plt.savefig("Figures/OS_PairCor.pdf")
+    plt.savefig("Figures/OS_PairCor.png")
 
     return 0
 
